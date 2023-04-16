@@ -9,7 +9,7 @@ export const Footer = () => {
            <Link to='/'> <img src={logo} alt="" /></Link>
             <ul className='flex flex-col gap-y-2'>
                <li> <Link to='/liked'>Избранное</Link></li>
-                <li> <Link>Корзина</Link></li>
+                <li> <Link to='/cart'>Корзина</Link></li>
                 <li> <Link to='/contacts'>Контакты</Link></li>
             </ul>
             <div className='flex flex-col justify-around'>

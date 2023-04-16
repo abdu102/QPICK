@@ -7,6 +7,7 @@ import { Ordering } from '../pages/Ordering/Ordering'
 import { Order } from '../pages/Order/Order'
 import { ServiceRequirements } from '../pages/ServiceRequirements/ServiceRequirements'
 import { Contact } from '../pages/Contact/Contact'
+import { Cart } from '../pages/Cart/Cart'
 
 export const Router = () => {
   return (
@@ -18,6 +19,7 @@ export const Router = () => {
         <Route path='/order/product/:id' element={<Order/>}/>
         <Route path='/service-requirement' element={<ServiceRequirements/>}/>
         <Route path='/contacts' element={<Contact/>}/>
+        <Route path='/cart' element={<Cart/>}/>
     </Routes>
   )
 }

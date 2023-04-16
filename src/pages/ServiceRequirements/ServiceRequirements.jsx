@@ -4,7 +4,7 @@ export const ServiceRequirements = () => {
   return (
     <section className='container'>
         <div className="requirement flex flex-col w-full h-[100vh] justify-between p-3">
-            <div className="service w-full h-[28%] bg-[#FFFFFF] rounded-[30px] p-4 flex flex-col gap-y-3" style={{boxShadow: '0px 0px 20px rgba(0, 0, 0, 0.1)'}}>
+            <div className="service w-full h-[23%] bg-[#FFFFFF] rounded-[30px] p-5 flex flex-col gap-y-3" style={{boxShadow: '0px 0px 20px rgba(0, 0, 0, 0.1)'}}>
                 <h2 className="text-[#1C1C27] text-[17px] font-semibold">Условия сервиса</h2>
                 <span className='pl-3'>
                     <p>Задача организации, в особенности же курс на социально-ориентированный национа
@@ -14,7 +14,7 @@ export const ServiceRequirements = () => {
                         мую зависит от всесторонне сбалансированных нововведений?</p>
                 </span>
             </div>
-            <div className="delivery w-full h-[28%] bg-[#FFFFFF] rounded-[30px] p-4 flex flex-col gap-y-3" style={{boxShadow: '0px 0px 20px rgba(0, 0, 0, 0.1)'}}>
+            <div className="delivery w-full h-[23%] bg-[#FFFFFF] rounded-[30px] p-5 flex flex-col gap-y-3" style={{boxShadow: '0px 0px 20px rgba(0, 0, 0, 0.1)'}}>
                 <h2 className="text-[#1C1C27] text-[17px] font-semibold">Условия доставки</h2>
                 <span className='pl-3'>
                     <p>Задача организации, в особенности же курс на социально-ориентированный национа
@@ -24,7 +24,7 @@ export const ServiceRequirements = () => {
                         мую зависит от всесторонне сбалансированных нововведений?</p>
                 </span>
             </div>
-            <div className="canceling w-full h-[28%] bg-[#FFFFFF] rounded-[30px] p-4 flex flex-col gap-y-3" style={{boxShadow: '0px 0px 20px rgba(0, 0, 0, 0.1)'}}>
+            <div className="canceling w-full h-[23%] bg-[#FFFFFF] rounded-[30px] p-5 flex flex-col gap-y-3" style={{boxShadow: '0px 0px 20px rgba(0, 0, 0, 0.1)'}}>
                 <h2 className="text-[#1C1C27] text-[17px] font-semibold">Условия возврата</h2>
                 <span className='pl-3'>
                     <p>Задача организации, в особенности же курс на социально-ориентированный национа

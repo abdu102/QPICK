@@ -43,7 +43,9 @@ export const Header = () => {
             liked > 0 ? liked : 0
         }</span>
         </span>
-        <span className='w-[50%] relative pt-3'><button className='bx bx-cart text-[25px]'></button>
+        <span className='w-[50%] relative pt-3'><button onClick={() => {
+          navigate('/cart')
+        }} className='bx bx-cart text-[25px]'></button>
         <span className='w-[20px] h-[20px] rounded-[50%] bg-[#FFA542] text-white absolute top-0 right-8 flex justify-center p-3 items-center'>
             {
                  saved > 0 ? saved : 0
